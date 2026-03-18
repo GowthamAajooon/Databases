@@ -1,0 +1,65 @@
+A REST API is a common method that allows two applications to communicate 
+with each other over the internet using HTTP.
+
+Think of it ordering food online
+@ You choose items -> place the order -> receive the food
+@ Similarity: an app sends a request -> the server handles it -> the app receives a response.
+
+REST stands for Representational State Transfer 
+
+R - Representation
+
+Data isn't shared directly. Instead, it's sent in formats like
+JSON or XML that both systems understand. 
+
+S - Stateless
+The server doesn't store your previous request info. 
+Each request is independent and include all required details.
+
+T - Transfer 
+Information moves using standard HTTP actions:
+GET -> fetch data
+POST -> add new data
+PUT -> modify existing data
+DELETE -> remove data
+
+
+Real life example: Banking Application
+View Balance -> GET
+Send money -> POST
+Edit profile -> PUT
+Deactivate account -> DELETE
+
+
+Why REST APIs are so popular
+@ Easy to understand
+@ Clean communication
+@ No dependency on previous requests
+@ Scales well with traffic
+@ Works across all platforms
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
